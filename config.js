@@ -11,10 +11,10 @@ import moment from "moment-timezone"
 
 /*Oᴡɴᴇʀ number*/
 global.owner = [
-    ["6282195322106", "️𝑾𝒖𝒅𝒚𝒔𝒐𝒇𝒕 - 𝑶𝒘𝒏𝒆𝒓", true]
+    ["6281284760551", "️Rey-Assistent", true]
 ]
-global.mods = ["6282195322106"]
-global.prems = ["6282195322106"]
+global.mods = ["6281284760551"]
+global.prems = ["6281284760551"]
 
 /*Website*/
 global.APIs = {
@@ -60,17 +60,17 @@ global.xyro = "yqiBQF86F4"
 /*Number*/
 global.nomorbot = "6285171216276"
 global.nomorown = "6282195322106"
-global.namebot = " ᴛᴀyʟᴏʀ-ʙᴏᴛ あ⁩ "
-global.nameown = "「 𝑾𝒖𝒅𝒚𝒔𝒐𝒇𝒕 」"
+global.namebot = "Rey-Assistent あ⁩ "
+global.nameown = "Rey"
 
 /* Random */
 global.pmenus = pickRandom(["乂", "◈", "➭", "ଓ", "⟆•", "⳻", "•", "↬", "◈", "⭑", "ᯬ", "◉", "᭻", "»", "〆", "々", "⛥", "✗", "⚜", "⚚", "♪"])
 global.htjava = pickRandom(["乂", "⛶", "❏", "⫹⫺", "☰", "⎔", "✦", "⭔", "⬟", "⛊", "⚝"])
 
 /*Watermark*/
-global.wm = "                「 ᴛᴀyʟᴏʀ-ʙᴏᴛ あ⁩ 」"
+global.wm = "                「 Rey-Assisten あ⁩ 」"
 global.wm2 = "꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘օառɛʀ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷"
-global.wm3 = htjava + " ᴛᴀyʟᴏʀ-ʙᴏᴛ"
+global.wm3 = htjava + " Rey Assisten"
 global.botdate = `${htjava} Date :  ${moment.tz("Asia/Makassar").format("DD/MM/YY")}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz("Asia/Makassar").format("HH:mm:ss")}`
 global.titlebot = `${htjava} Time Sever : ${moment.tz("Asia/Makassar").format("HH:mm:ss")}\n⫹⫺ Date Server :  ${moment.tz("Asia/Makassar").format("DD/MM/YY")}`
@@ -148,7 +148,7 @@ global.cmenua = "\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙
 global.emojis = pickRandom(["👑", "🎗", "️🗿", "🕹", "️💡", "🪄", "🎈", "🎊", "🔖", "📍", "❤", "‍🔥", "💤", "💭", "🕚", "💬", "🚩", "🎐", "🍃", "🌿", "🥀", "✨", "⚡", "☂️"])
 global.packname = "𝑴𝒂𝒅𝒆 𝒃𝒚"
 global.stickpack = packname
-global.author = "𝑻𝒂𝒚𝒍𝒐𝒓 乂 𝑾𝒖𝒅𝒚𝒔𝒐𝒇𝒕"
+global.author = "Rey"
 global.stickauth = author + "\nwa.me/" + nomorbot
 global.multiplier = 69
 
@@ -184,10 +184,10 @@ global.adReplyS = {
             title: "📍 " + Sapa() + Pagi(),
             body: author,
             mediaUrl: sgc,
-            description: "𝑾𝒖𝒅𝒚𝒔𝒐𝒇𝒕",
+            description: "Rey",
             previewType: "PHOTO",
             thumbnail: await fs.readFileSync("./thumbnail.jpg"),
-            sourceUrl: "https://github.com/AyGemuy",
+            sourceUrl: "https://github.com/inirey",
         }
     }
 }
